@@ -1,0 +1,236 @@
+Time = 7376us, Send to RSU WSA packet: ID = 0
+Time = 7744us, receive packet:  protocol = 0x88dc id = 0 sendTime = 7376 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 19701
+Time = 7744us, Send ACK packet: ID = 1
+Time = 8342us, receive packet:  protocol = 0x88dd id = 1 sendTime = 7744 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 19701
+Time = 37883us, Send to RSU WSA packet: ID = 2
+Time = 38251us, receive packet:  protocol = 0x88dc id = 2 sendTime = 37883 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 14143
+Time = 38251us, Send ACK packet: ID = 3
+Time = 38849us, receive packet:  protocol = 0x88dd id = 3 sendTime = 38251 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 14143
+Time = 42434us, Send to RSU WSA packet: ID = 4
+Time = 42802us, receive packet:  protocol = 0x88dc id = 4 sendTime = 42434 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 5986
+Time = 42802us, Send ACK packet: ID = 5
+Time = 43400us, receive packet:  protocol = 0x88dd id = 5 sendTime = 42802 type = SafetyPacket ReceiveChannel = 180 ServiceSize = 5986
+Time = 63328us, unicast IP packet:  ID = 0, dest = 02-06-00:00:00:00:00:05, channel = 174, size = 6000
+Time = 67733us, unicast IP packet:  ID = 1, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 6000
+Time = 71904us, receive packet:  protocol = 0x800 id = 0 sendTime = 63328 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 76310us, receive packet:  protocol = 0x800 id = 1 sendTime = 67733 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 85638us, unicast IP packet:  ID = 2, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 6000
+Time = 86332us, unicast IP packet:  ID = 3, dest = 02-06-00:00:00:00:00:05, channel = 174, size = 6000
+Time = 94214us, receive packet:  protocol = 0x800 id = 2 sendTime = 85638 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 94908us, receive packet:  protocol = 0x800 id = 3 sendTime = 86332 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 96760us, unicast IP packet:  ID = 4, dest = 02-06-00:00:00:00:00:04, channel = 180, size = 5986
+Time = 120036us, Send to RSU WSA packet: ID = 6
+Time = 120404us, receive packet:  protocol = 0x88dc id = 6 sendTime = 120036 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 2103
+Time = 120404us, Send ACK packet: ID = 7
+Time = 121002us, receive packet:  protocol = 0x88dd id = 7 sendTime = 120404 type = SafetyPacket ReceiveChannel = 180 ServiceSize = 2103
+Time = 144059us, Send to RSU WSA packet: ID = 8
+Time = 144427us, receive packet:  protocol = 0x88dc id = 8 sendTime = 144059 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 12297
+Time = 144427us, Send ACK packet: ID = 9
+Time = 145025us, receive packet:  protocol = 0x88dd id = 9 sendTime = 144427 type = SafetyPacket ReceiveChannel = 182 ServiceSize = 12297
+Time = 145315us, Send to RSU WSA packet: ID = 10
+Time = 145683us, receive packet:  protocol = 0x88dc id = 10 sendTime = 145315 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 18699
+Time = 145683us, Send ACK packet: ID = 11
+Time = 146372us, receive packet:  protocol = 0x88dd id = 11 sendTime = 145683 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 18699
+Time = 162257us, unicast IP packet:  ID = 5, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 2143
+Time = 165209us, receive packet:  protocol = 0x800 id = 5 sendTime = 162257 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 2143
+Time = 171582us, unicast IP packet:  ID = 6, dest = 02-06-00:00:00:00:00:01, channel = 182, size = 6000
+Time = 175203us, unicast IP packet:  ID = 7, dest = 02-06-00:00:00:00:00:05, channel = 174, size = 1701
+Time = 177571us, receive packet:  protocol = 0x800 id = 7 sendTime = 175203 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 1701
+Time = 180158us, receive packet:  protocol = 0x800 id = 6 sendTime = 171582 type = NonSafetyPacket ReceiveChannel = 182 ServiceSize = 6000
+Time = 183904us, unicast IP packet:  ID = 8, dest = 02-06-00:00:00:00:00:03, channel = 180, size = 2103
+Time = 185626us, unicast IP packet:  ID = 9, dest = 02-06-00:00:00:00:00:02, channel = 176, size = 6000
+Time = 186808us, receive packet:  protocol = 0x800 id = 8 sendTime = 183904 type = NonSafetyPacket ReceiveChannel = 180 ServiceSize = 2103
+Time = 187839us, unicast IP packet:  ID = 10, dest = 02-06-00:00:00:00:00:05, channel = 174, size = 6000
+Time = 189163us, unicast IP packet:  ID = 11, dest = 02-06-00:00:00:00:00:01, channel = 182, size = 6000
+Time = 194203us, receive packet:  protocol = 0x800 id = 9 sendTime = 185626 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 196415us, receive packet:  protocol = 0x800 id = 10 sendTime = 187839 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 197739us, receive packet:  protocol = 0x800 id = 11 sendTime = 189163 type = NonSafetyPacket ReceiveChannel = 182 ServiceSize = 6000
+Time = 203139us, Send to RSU WSA packet: ID = 12
+Time = 203507us, receive packet:  protocol = 0x88dc id = 12 sendTime = 203139 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 5081
+Time = 203507us, Send ACK packet: ID = 13
+Time = 204105us, receive packet:  protocol = 0x88dd id = 13 sendTime = 203507 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 5081
+Time = 226117us, Send to RSU WSA packet: ID = 14
+Time = 226485us, receive packet:  protocol = 0x88dc id = 14 sendTime = 226117 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 4185
+Time = 226485us, Send ACK packet: ID = 15
+Time = 227083us, receive packet:  protocol = 0x88dd id = 15 sendTime = 226485 type = SafetyPacket ReceiveChannel = 180 ServiceSize = 4185
+Time = 257624us, unicast IP packet:  ID = 12, dest = 02-06-00:00:00:00:00:06, channel = 174, size = 5081
+Time = 264976us, receive packet:  protocol = 0x800 id = 12 sendTime = 257624 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 5081
+Time = 266616us, unicast IP packet:  ID = 13, dest = 02-06-00:00:00:00:00:07, channel = 180, size = 4185
+Time = 272536us, receive packet:  protocol = 0x800 id = 13 sendTime = 266616 type = NonSafetyPacket ReceiveChannel = 180 ServiceSize = 4185
+Time = 276467us, unicast IP packet:  ID = 14, dest = 02-06-00:00:00:00:00:02, channel = 176, size = 6000
+Time = 285043us, receive packet:  protocol = 0x800 id = 14 sendTime = 276467 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 289621us, unicast IP packet:  ID = 15, dest = 02-06-00:00:00:00:00:02, channel = 176, size = 6000
+Time = 292411us, unicast IP packet:  ID = 16, dest = 02-06-00:00:00:00:00:01, channel = 182, size = 297
+Time = 292907us, receive packet:  protocol = 0x800 id = 16 sendTime = 292411 type = NonSafetyPacket ReceiveChannel = 182 ServiceSize = 297
+Time = 298197us, receive packet:  protocol = 0x800 id = 15 sendTime = 289621 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 303651us, Send to RSU WSA packet: ID = 16
+Time = 304491us, receive packet:  protocol = 0x88dc id = 16 sendTime = 303651 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 2624
+Time = 304491us, Send ACK packet: ID = 17
+Time = 305089us, receive packet:  protocol = 0x88dd id = 17 sendTime = 304491 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 2624
+Time = 320126us, Send to RSU WSA packet: ID = 18
+Time = 320494us, receive packet:  protocol = 0x88dc id = 18 sendTime = 320126 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 6735
+Time = 320494us, Send ACK packet: ID = 19
+Time = 321092us, receive packet:  protocol = 0x88dd id = 19 sendTime = 320494 type = SafetyPacket ReceiveChannel = 180 ServiceSize = 6735
+Time = 339285us, Send to RSU WSA packet: ID = 20
+Time = 339653us, receive packet:  protocol = 0x88dc id = 20 sendTime = 339285 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 15983
+Time = 339653us, Send ACK packet: ID = 21
+Time = 340251us, receive packet:  protocol = 0x88dd id = 21 sendTime = 339653 type = SafetyPacket ReceiveChannel = 182 ServiceSize = 15983
+Time = 351069us, unicast IP packet:  ID = 17, dest = 02-06-00:00:00:00:00:05, channel = 180, size = 6000
+Time = 359164us, unicast IP packet:  ID = 18, dest = 02-06-00:00:00:00:00:01, channel = 182, size = 6000
+Time = 363382us, receive packet:  protocol = 0x800 id = 17 sendTime = 351069 type = NonSafetyPacket ReceiveChannel = 180 ServiceSize = 6000
+Time = 367740us, receive packet:  protocol = 0x800 id = 18 sendTime = 359164 type = NonSafetyPacket ReceiveChannel = 182 ServiceSize = 6000
+Time = 370666us, unicast IP packet:  ID = 19, dest = 02-06-00:00:00:00:00:07, channel = 174, size = 2624
+Time = 374506us, receive packet:  protocol = 0x800 id = 19 sendTime = 370666 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 2624
+Time = 393792us, unicast IP packet:  ID = 20, dest = 02-06-00:00:00:00:00:02, channel = 176, size = 699
+Time = 394651us, unicast IP packet:  ID = 21, dest = 02-06-00:00:00:00:00:01, channel = 182, size = 6000
+Time = 394824us, receive packet:  protocol = 0x800 id = 20 sendTime = 393792 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 699
+Time = 398949us, unicast IP packet:  ID = 22, dest = 02-06-00:00:00:00:00:05, channel = 180, size = 735
+Time = 410046us, Send to RSU WSA packet: ID = 22
+Time = 410414us, receive packet:  protocol = 0x88dc id = 22 sendTime = 410046 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 6491
+Time = 410414us, Send ACK packet: ID = 23
+Time = 411012us, receive packet:  protocol = 0x88dd id = 23 sendTime = 410414 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 6491
+Time = 486479us, unicast IP packet:  ID = 23, dest = 02-06-00:00:00:00:00:01, channel = 182, size = 3983
+Time = 493126us, unicast IP packet:  ID = 24, dest = 02-06-00:00:00:00:00:03, channel = 174, size = 6000
+Time = 494864us, unicast IP packet:  ID = 25, dest = 02-06-00:00:00:00:00:03, channel = 174, size = 491
+Time = 537804us, Send to RSU WSA packet: ID = 24
+Time = 538172us, receive packet:  protocol = 0x88dc id = 24 sendTime = 537804 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 18605
+Time = 538172us, Send ACK packet: ID = 25
+Time = 538770us, receive packet:  protocol = 0x88dd id = 25 sendTime = 538172 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 18605
+Time = 543552us, Send to RSU WSA packet: ID = 26
+Time = 543920us, receive packet:  protocol = 0x88dc id = 26 sendTime = 543552 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 2290
+Time = 543920us, Send ACK packet: ID = 27
+Time = 544518us, receive packet:  protocol = 0x88dd id = 27 sendTime = 543920 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 2290
+Time = 577915us, unicast IP packet:  ID = 26, dest = 02-06-00:00:00:00:00:06, channel = 174, size = 6000
+Time = 584603us, unicast IP packet:  ID = 27, dest = 02-06-00:00:00:00:00:02, channel = 176, size = 2290
+Time = 586491us, receive packet:  protocol = 0x800 id = 26 sendTime = 577915 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 587755us, receive packet:  protocol = 0x800 id = 27 sendTime = 584603 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 2290
+Time = 588355us, unicast IP packet:  ID = 28, dest = 02-06-00:00:00:00:00:06, channel = 174, size = 6000
+Time = 596931us, receive packet:  protocol = 0x800 id = 28 sendTime = 588355 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 618384us, Send to RSU WSA packet: ID = 28
+Time = 618752us, receive packet:  protocol = 0x88dc id = 28 sendTime = 618384 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 6809
+Time = 618752us, Send ACK packet: ID = 29
+Time = 619350us, receive packet:  protocol = 0x88dd id = 29 sendTime = 618752 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 6809
+Time = 632848us, Send to RSU WSA packet: ID = 30
+Time = 633216us, receive packet:  protocol = 0x88dc id = 30 sendTime = 632848 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 11317
+Time = 633216us, Send ACK packet: ID = 31
+Time = 633814us, receive packet:  protocol = 0x88dd id = 31 sendTime = 633216 type = SafetyPacket ReceiveChannel = 180 ServiceSize = 11317
+Time = 657919us, unicast IP packet:  ID = 29, dest = 02-06-00:00:00:00:00:02, channel = 180, size = 5317
+Time = 665583us, receive packet:  protocol = 0x800 id = 29 sendTime = 657919 type = NonSafetyPacket ReceiveChannel = 180 ServiceSize = 5317
+Time = 666647us, unicast IP packet:  ID = 30, dest = 02-06-00:00:00:00:00:02, channel = 180, size = 6000
+Time = 667016us, unicast IP packet:  ID = 31, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 6000
+Time = 674777us, unicast IP packet:  ID = 32, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 809
+Time = 675223us, receive packet:  protocol = 0x800 id = 30 sendTime = 666647 type = NonSafetyPacket ReceiveChannel = 180 ServiceSize = 6000
+Time = 675593us, receive packet:  protocol = 0x800 id = 31 sendTime = 667016 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 677012us, receive packet:  protocol = 0x800 id = 32 sendTime = 674777 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 809
+Time = 677352us, unicast IP packet:  ID = 33, dest = 02-06-00:00:00:00:00:06, channel = 174, size = 6000
+Time = 685928us, receive packet:  protocol = 0x800 id = 33 sendTime = 677352 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 690705us, unicast IP packet:  ID = 34, dest = 02-06-00:00:00:00:00:06, channel = 174, size = 605
+Time = 691609us, receive packet:  protocol = 0x800 id = 34 sendTime = 690705 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 605
+Time = 742662us, Send to RSU WSA packet: ID = 32
+Time = 743030us, receive packet:  protocol = 0x88dc id = 32 sendTime = 742662 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 2168
+Time = 743030us, Send ACK packet: ID = 33
+Time = 743628us, receive packet:  protocol = 0x88dd id = 33 sendTime = 743030 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 2168
+Time = 745493us, Send to RSU WSA packet: ID = 34
+Time = 745861us, receive packet:  protocol = 0x88dc id = 34 sendTime = 745493 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 9398
+Time = 745861us, Send ACK packet: ID = 35
+Time = 746459us, receive packet:  protocol = 0x88dd id = 35 sendTime = 745861 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 9398
+Time = 759700us, unicast IP packet:  ID = 35, dest = 02-06-00:00:00:00:00:02, channel = 176, size = 6000
+Time = 768276us, receive packet:  protocol = 0x800 id = 35 sendTime = 759700 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 774905us, unicast IP packet:  ID = 36, dest = 02-06-00:00:00:00:00:07, channel = 174, size = 2168
+Time = 777897us, receive packet:  protocol = 0x800 id = 36 sendTime = 774905 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 2168
+Time = 789262us, unicast IP packet:  ID = 37, dest = 02-06-00:00:00:00:00:02, channel = 176, size = 3398
+Time = 794134us, receive packet:  protocol = 0x800 id = 37 sendTime = 789262 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 3398
+Time = 806172us, Send to RSU WSA packet: ID = 36
+Time = 806540us, receive packet:  protocol = 0x88dc id = 36 sendTime = 806172 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 6401
+Time = 806540us, Send ACK packet: ID = 37
+Time = 807138us, receive packet:  protocol = 0x88dd id = 37 sendTime = 806540 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 6401
+Time = 852041us, unicast IP packet:  ID = 38, dest = 02-06-00:00:00:00:00:06, channel = 174, size = 6000
+Time = 860617us, receive packet:  protocol = 0x800 id = 38 sendTime = 852041 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 893843us, unicast IP packet:  ID = 39, dest = 02-06-00:00:00:00:00:06, channel = 174, size = 401
+Time = 894475us, receive packet:  protocol = 0x800 id = 39 sendTime = 893843 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 401
+Time = 914496us, Send to RSU WSA packet: ID = 38
+Time = 914864us, receive packet:  protocol = 0x88dc id = 38 sendTime = 914496 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 9756
+Time = 914864us, Send ACK packet: ID = 39
+Time = 915462us, receive packet:  protocol = 0x88dd id = 39 sendTime = 914864 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 9756
+Time = 915933us, Send to RSU WSA packet: ID = 40
+Time = 916301us, receive packet:  protocol = 0x88dc id = 40 sendTime = 915933 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 9516
+Time = 916301us, Send ACK packet: ID = 41
+Time = 916899us, receive packet:  protocol = 0x88dd id = 41 sendTime = 916301 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 9516
+Time = 956430us, unicast IP packet:  ID = 40, dest = 02-06-00:00:00:00:00:06, channel = 176, size = 3516
+Time = 961455us, receive packet:  protocol = 0x800 id = 40 sendTime = 956430 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 3516
+Time = 970373us, unicast IP packet:  ID = 41, dest = 02-06-00:00:00:00:00:06, channel = 176, size = 6000
+Time = 978949us, receive packet:  protocol = 0x800 id = 41 sendTime = 970373 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 981341us, unicast IP packet:  ID = 42, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 3756
+Time = 982656us, unicast IP packet:  ID = 43, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 986685us, receive packet:  protocol = 0x800 id = 42 sendTime = 981341 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 3756
+Time = 995686us, receive packet:  protocol = 0x800 id = 43 sendTime = 982656 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 1003344us, Send to RSU WSA packet: ID = 42
+Time = 1004660us, receive packet:  protocol = 0x88dc id = 42 sendTime = 1003344 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 3175
+Time = 1004660us, Send ACK packet: ID = 43
+Time = 1005258us, receive packet:  protocol = 0x88dd id = 43 sendTime = 1004660 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 3175
+Time = 1047736us, Send to RSU WSA packet: ID = 44
+Time = 1048104us, receive packet:  protocol = 0x88dc id = 44 sendTime = 1047736 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 10092
+Time = 1048104us, Send ACK packet: ID = 45
+Time = 1048702us, receive packet:  protocol = 0x88dd id = 45 sendTime = 1048104 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 10092
+Time = 1049882us, Send to RSU WSA packet: ID = 46
+Time = 1054478us, receive packet:  protocol = 0x88dc id = 46 sendTime = 1049882 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 15482
+Time = 1054478us, Send ACK packet: ID = 47
+Time = 1055076us, receive packet:  protocol = 0x88dd id = 47 sendTime = 1054478 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 15482
+Time = 1060167us, unicast IP packet:  ID = 44, dest = 02-06-00:00:00:00:00:06, channel = 176, size = 4092
+Time = 1065959us, receive packet:  protocol = 0x800 id = 44 sendTime = 1060167 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 4092
+Time = 1086263us, unicast IP packet:  ID = 45, dest = 02-06-00:00:00:00:00:07, channel = 174, size = 3175
+Time = 1090831us, receive packet:  protocol = 0x800 id = 45 sendTime = 1086263 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 3175
+Time = 1092466us, unicast IP packet:  ID = 46, dest = 02-06-00:00:00:00:00:06, channel = 176, size = 6000
+Time = 1144037us, Send to RSU WSA packet: ID = 48
+Time = 1144405us, receive packet:  protocol = 0x88dc id = 48 sendTime = 1144037 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 5214
+Time = 1144405us, Send ACK packet: ID = 49
+Time = 1145003us, receive packet:  protocol = 0x88dd id = 49 sendTime = 1144405 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 5214
+Time = 1155641us, unicast IP packet:  ID = 47, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 5214
+Time = 1163169us, receive packet:  protocol = 0x800 id = 47 sendTime = 1155641 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 5214
+Time = 1171814us, unicast IP packet:  ID = 48, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 1180390us, receive packet:  protocol = 0x800 id = 48 sendTime = 1171814 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 1189240us, unicast IP packet:  ID = 49, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 1197816us, receive packet:  protocol = 0x800 id = 49 sendTime = 1189240 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 1206591us, Send to RSU WSA packet: ID = 50
+Time = 1206959us, receive packet:  protocol = 0x88dc id = 50 sendTime = 1206591 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 19677
+Time = 1206959us, Send ACK packet: ID = 51
+Time = 1207557us, receive packet:  protocol = 0x88dd id = 51 sendTime = 1206959 type = SafetyPacket ReceiveChannel = 176 ServiceSize = 19677
+Time = 1251543us, unicast IP packet:  ID = 50, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 6000
+Time = 1260119us, receive packet:  protocol = 0x800 id = 50 sendTime = 1251543 type = NonSafetyPacket ReceiveChannel = 176 ServiceSize = 6000
+Time = 1274491us, unicast IP packet:  ID = 51, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 3482
+Time = 1279475us, receive packet:  protocol = 0x800 id = 51 sendTime = 1274491 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 3482
+Time = 1293897us, unicast IP packet:  ID = 52, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 6000
+Time = 1343067us, Send to RSU WSA packet: ID = 52
+Time = 1343435us, receive packet:  protocol = 0x88dc id = 52 sendTime = 1343067 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 3619
+Time = 1343435us, Send ACK packet: ID = 53
+Time = 1344033us, receive packet:  protocol = 0x88dd id = 53 sendTime = 1343435 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 3619
+Time = 1357563us, unicast IP packet:  ID = 53, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 3619
+Time = 1362723us, receive packet:  protocol = 0x800 id = 53 sendTime = 1357563 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 3619
+Time = 1384905us, unicast IP packet:  ID = 54, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 6000
+Time = 1387775us, unicast IP packet:  ID = 55, dest = 02-06-00:00:00:00:00:07, channel = 176, size = 1677
+Time = 1507888us, Send to RSU WSA packet: ID = 54
+Time = 1508256us, receive packet:  protocol = 0x88dc id = 54 sendTime = 1507888 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 17357
+Time = 1508256us, Send ACK packet: ID = 55
+Time = 1508854us, receive packet:  protocol = 0x88dd id = 55 sendTime = 1508256 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 17357
+Time = 1555655us, unicast IP packet:  ID = 56, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 1564231us, receive packet:  protocol = 0x800 id = 56 sendTime = 1555655 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 1584655us, unicast IP packet:  ID = 57, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 1593231us, receive packet:  protocol = 0x800 id = 57 sendTime = 1584655 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 1650262us, unicast IP packet:  ID = 58, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 5357
+Time = 1661615us, receive packet:  protocol = 0x800 id = 58 sendTime = 1650262 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 5357
+Time = 2011534us, Send to RSU WSA packet: ID = 56
+Time = 2011902us, receive packet:  protocol = 0x88dc id = 56 sendTime = 2011534 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 10821
+Time = 2011902us, Send ACK packet: ID = 57
+Time = 2012500us, receive packet:  protocol = 0x88dd id = 57 sendTime = 2011902 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 10821
+Time = 2057872us, unicast IP packet:  ID = 59, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 4821
+Time = 2064880us, receive packet:  protocol = 0x800 id = 59 sendTime = 2057872 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 4821
+Time = 2065569us, unicast IP packet:  ID = 60, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 2074146us, receive packet:  protocol = 0x800 id = 60 sendTime = 2065569 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 2224378us, Send to RSU WSA packet: ID = 58
+Time = 2224746us, receive packet:  protocol = 0x88dc id = 58 sendTime = 2224378 type = SafetyPacket ReceiveChannel = 178 ServiceSize = 13656
+Time = 2224746us, Send ACK packet: ID = 59
+Time = 2225344us, receive packet:  protocol = 0x88dd id = 59 sendTime = 2224746 type = SafetyPacket ReceiveChannel = 174 ServiceSize = 13656
+Time = 2266989us, unicast IP packet:  ID = 61, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 2275565us, receive packet:  protocol = 0x800 id = 61 sendTime = 2266989 type = NonSafetyPacket ReceiveChannel = 174 ServiceSize = 6000
+Time = 2291970us, unicast IP packet:  ID = 62, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 6000
+Time = 2365012us, unicast IP packet:  ID = 63, dest = 02-06-00:00:00:00:00:02, channel = 174, size = 1656

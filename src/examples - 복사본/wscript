@@ -1,0 +1,27 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_program('wave-multiple-channel', ['wave', 'wifi'])
+    obj.source = 'wave-multiple-channel.cc'
+
+    obj = bld.create_ns3_program('wave-simple-device', ['wave'])
+    obj.source = 'wave-simple-device.cc'
+    
+    obj = bld.create_ns3_program('wave-simple-vsa',
+        ['core', 'applications', 'mobility', 'network', 'wifi','wave'])
+    obj.source = 'wave-simple-vsa.cc'
+
+    obj = bld.create_ns3_program('wave-simple-80211p',
+        ['core', 'applications', 'mobility', 'network', 'wifi','wave'])
+    obj.source = 'wave-simple-80211p.cc'
+
+    obj = bld.create_ns3_program('wave-wns3', ['wave', 'wifi'])
+    obj.source = 'wave-wns3.cc'
+
+    obj = bld.create_ns3_program('wifip-vs-wifia',
+    ['core', 'applications', 'mobility', 'network', 'wifi','wave'])
+    obj.source = 'wifip-vs-wifia.cc'
+    
+    obj = bld.create_ns3_program('wave-transmission-range',
+    ['core', 'applications', 'mobility', 'network', 'wifi','wave'])
+    obj.source = 'wave-transmission-range.cc'

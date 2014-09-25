@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{a2f6d764-7b20-4a01-9d54-328f49bb4e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{3365bc2a-168b-4b61-b26e-53ed522b39e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\wave\model\channel-coordinator.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\channel-manager.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\channel-scheduler.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\data-tx-tag.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\ocb-wifi-mac.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\vendor-specific-action.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\vsa-repeater.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\wave-edca-txop-n.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\wave-mac-low.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\model\wave-net-device.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\helper\wave-helper.cc">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\helper\wave-mac-helper.cc">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wave\helper\wifi-80211p-helper.cc">
+      <Filter>helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\wave\model\channel-coordinator.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\channel-manager.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\channel-scheduler.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\data-tx-tag.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\ocb-wifi-mac.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\vendor-specific-action.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\vsa-repeater.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\wave-edca-txop-n.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\wave-mac-low.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\model\wave-net-device.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\helper\wave-helper.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\helper\wave-mac-helper.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wave\helper\wifi-80211p-helper.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
